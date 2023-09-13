@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="com.hcl.springcore.Student" name="student1">
+		<property name="rollNo">
+			<value>101</value>
+		</property>
+		<property name="studentName">
+			<value>Harkirat Singh</value>
+		</property>
+		<property name="address">
+			<value>New Delhi</value>
+		</property>
+	</bean>
+	<bean class="com.hcl.springcore.Student" name="student2">
+		<property name="rollNo">
+			<value>102</value>
+		</property>
+		<property name="studentName">
+			<value>Ankit Sharma</value>
+		</property>
+		<property name="address">
+			<value>Noida</value>
+		</property>
+	</bean>
+
+	<bean class="com.hcl.springcore.Student" name="student3">
+		<constructor-arg>
+			<value>103</value>
+		</constructor-arg>
+		<constructor-arg value="Suhail Ali" />
+		<constructor-arg value="Faridabad" />
+	</bean>
+</beans>

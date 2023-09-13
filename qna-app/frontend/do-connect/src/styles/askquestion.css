@@ -1,0 +1,12 @@
+.cardHeading
+{
+    color: crimson;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.card
+{
+    margin: 30px auto;
+    float: none;
+}

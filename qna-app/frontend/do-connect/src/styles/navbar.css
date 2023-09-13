@@ -1,0 +1,26 @@
+.navbarHeading
+{
+    font-size: 30px;
+    font-weight: 700;
+    background-color: bisque;
+}
+
+.navbarItem
+{
+    font-size: large;
+    font-weight: 800;
+}
+
+.container
+{
+    background-color: lightgreen;
+}
+
+.headingUser
+{
+    font-size: 35px;
+    font-weight: 700;
+    color: red;
+    text-align: center;
+    margin: 20px;
+}
